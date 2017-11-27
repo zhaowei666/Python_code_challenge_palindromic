@@ -49,6 +49,7 @@ test_cases = [{'num': 0, 'base': 2},
               {'num': 3 * (pow(3, 1000) - 1), 'base': 3}
               ]
 
+
 class TestMethods(unittest.TestCase):
 
     def test_minimum_palindromic_base(self):
